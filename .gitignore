@@ -1,15 +1,75 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# ---------------------------
+# IDE / Editors
+# ---------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------------------------
+# Logs / Temp files
+# ---------------------------
+*.log
+*.tmp
+*.temp
+
+# ---------------------------
+# Images (optional: exclude generated or test images)
+*.jpg
+*.jpeg
+
+# ---------------------------
+# Machine Learning / Data files
+# ---------------------------
 *.vec
 *.emb
 *.bin
 *.pt
 *.h5
+*.ckpt
+*.pb
+*.onnx
 *.tar
 *.zip
 *.7z
 *.rar
+*.gz
+*.bz2
+
+# Datasets
 *.csv
+*.tsv
+*.xls
+*.xlsx
 *.parquet
 *.npy
 *.npz
-# конкретний файл
+
+# ---------------------------
+# Specific files
+# ---------------------------
 Home_Task_21/glove.6B.100d.txt
+
+# ---------------------------
+# OS-specific
+# ---------------------------
+.DS_Store
+Thumbs.db

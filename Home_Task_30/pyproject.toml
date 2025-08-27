@@ -1,0 +1,25 @@
+[project]
+name = "poetry"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "voinskyi",email = "voinskiju@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "fastapi (>=0.116.1,<0.117.0)",
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "torch (>=2.8.0,<3.0.0)",
+    "ultralytics (>=8.3.187,<9.0.0)",
+    "pillow (>=11.3.0,<12.0.0)",
+    "python-multipart (>=0.0.20,<0.0.21)",
+    "requests (>=2.32.5,<3.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
